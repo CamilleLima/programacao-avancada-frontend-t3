@@ -1,5 +1,88 @@
-#container {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-  }
+/*geral*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid{
+  padding: 70px 0;
+}
+
+.row{
+  margin: 0;
+}
+
+p, li{
+  color: #212322;
+  font-size: 14px;
+}
+
+/* sobre */
+
+#about-area{
+  background-color: #f6f6f6;
+}
+
+.main-title{
+  text-align: center;
+  margin: 0 0 50px 0;
+  font-size: 40px;
+}
+
+#about-title{
+  color: #212322;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#about-list{
+  list-style: none;
+  padding: 0;
+
+}
+
+#about-list i{
+  margin-right: 15px;
+  color: #4973f2;
+}
+
+#about-list li{
+  line-height: 30px;
+}
+
+/* Serviço */
+
+.service-box{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i{
+  font-size: 40px;
+  color: #212322;
+  margin-bottom: 20px;
+
+}
+
+.service-box h3{
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.service-box:hover > i, .service-box:hover > h3{
+  color: #7595d3;
+}
+
+.service-box i, .service-box h3{
+  transition: 0.5s;
+}
+
+.main-title::after{
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 135px;
+  left: 42.5%;
+}
