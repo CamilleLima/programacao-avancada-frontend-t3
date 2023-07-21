@@ -29,7 +29,7 @@ p, li{
   font-size: 40px;
 }
 
-#about-title{
+.title-uppercase{
   color: #212322;
   text-transform: uppercase;
   font-weight: bold;
@@ -78,11 +78,54 @@ p, li{
   transition: 0.5s;
 }
 
-.main-title::after{
+.main-title:after{
   content: "";
-  border-top: 2px solid #333;
-  width: 15%;
-  position: absolute;
-  top: 135px;
-  left: 42.5%;
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #0c0c0c;
+  margin: 10px auto;
+}
+
+/* time */
+#team-area{
+  margin-bottom: 65px;
+}
+
+/* Trabalhe conosco */
+#apply-area{
+  height: 500px;
+}
+
+#apply-area .row, #apply-img #apply-content{
+  height: 100%;
+}
+
+#apply-img{
+  background-image: url('img/empresa.jpg');
+  background-size: cover;
+}
+
+#apply-content{
+  background-color: #0c0c0c;
+  
+}
+
+#apply-content h4, #apply-content p{
+  color: white;
+}
+
+#apply-content h4{
+  margin-top: 15%;
+}
+
+#apply-content a{
+  border-radius: 40px;
+  background-color: #0c0c0c;
+  border-color: white;
+}
+
+#btn:hover{
+  background-color: #4973f2;
+  transition: 0.2s;
 }
