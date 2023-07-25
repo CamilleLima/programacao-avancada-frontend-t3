@@ -141,3 +141,72 @@ p, li{
   transition: 0.2s;
 }
 
+#projects{
+width: 75%;
+ 
+}
+
+.imgs{
+  margin-bottom: 30px;
+}
+
+#news{
+  background-color: lightgray grey;
+}
+
+#first-text h2{
+  text-align: center;
+  font-size: 18px;
+}
+
+#faixa p{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+#news-area {
+  background-color: #F9F9F9;
+  text-align: center;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #65DAF9;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+  align-items: center;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #65DAF9;
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: .5s;
+}
+
+#news-btn:hover {
+  background-color: #FFF;
+  color: #65DAF9;
+}
+
+
+
+
+
